@@ -5,6 +5,8 @@ package random;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class IntroToRandom {
 	public static void main(String[] args) {
 		
@@ -20,7 +22,6 @@ public class IntroToRandom {
 		//4. Limit the random number between 0 and 100
 
 		//5. Limit the random number between 25 and 75. Hint: ((highest value - lowest value)+1) + lowest value
-
 r = number.nextInt((75 - 25) + 1) + 25;
 
 		//6. Challenge: Limit the random number between -222 and 88
@@ -30,5 +31,5 @@ System.out.println(r);
 		
 		//2. Run the program.  What number appears in the console?
 		//   Run it again. Is the number the same?
-	}
+}
 }
